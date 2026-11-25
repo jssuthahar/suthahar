@@ -1,0 +1,43 @@
+name: Refresh profile data
+
+# Rebuilds the live-data blocks in index.html (latest blog posts, events,
+# GitHub numbers, YouTube videos, article counts) from public sources,
+# and commits only when something actually changed.
+on:
+  schedule:
+    - cron: '30 0 * * *'   # daily, 08:30 Malaysia time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Refresh live data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/build.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html sitemap.xml
+          git commit -m "chore: refresh profile data"
+          git push

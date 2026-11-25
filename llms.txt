@@ -1,0 +1,27 @@
+# Suthahar Jegatheesan
+
+> Cloud, AI & Mobile Solutions Architect in Kuala Lumpur, Malaysia, with 19+ years in enterprise architecture. Technical Architect at Continental Tire. Microsoft Azure Content Hero, Microsoft Certified Trainer (MCT) and C# Corner MVP. Creator of MSDEVBUILD.
+
+## Facts
+- Role: Technical Architect — Senior Application Specialist, Continental Tire, Petaling Jaya, Malaysia (Jan 2022 – present)
+- Previously: Cloud & Mobile Technical Architect, Mindtree (2018–2022); Team Lead & Solution Architect, Accenture / Avanade (2011–2018); Senior Software Engineer (2007–2011)
+- Focus: Microsoft Azure, Azure AI and Microsoft Foundry, AI agents, GitHub Copilot, Claude, C#, .NET, Python, Flutter, .NET MAUI, Google Cloud, Firebase, DevOps, FinOps
+- Reach: 5M+ content views, 15,000+ developers reached, 50+ conference talks
+- Certifications: MCT, GH-300 GitHub Copilot, AZ-300, AZ-301, AZ-104, AI-100, DP-900, MCPD, SAFe 4 Scrum Master
+- Awards: Microsoft Azure Content Hero, C# Corner MVP, Top 100 Microsoft Azure Blogs, Accenture Customer Impact Award, Avanade Orange Award, Titan Award
+
+## MSDEVBUILD
+- [Blog](https://blog.msdevbuild.com/): architect-level articles on Azure, AI agents, GitHub Copilot, C#, Flutter and .NET MAUI
+- [Azure Learning](https://azure.msdevbuild.com/): free, open-source Azure certification learning platform (AZ-900); source at https://github.com/jssuthahar/Azure
+- [Archive](https://www.msdevbuild.com/): the original MSDEVBUILD blog
+- [YouTube](https://www.youtube.com/@MSDEVBUILD)
+
+## Profiles
+- [LinkedIn](https://www.linkedin.com/in/jssuthahar)
+- [GitHub](https://github.com/jssuthahar)
+- [Microsoft Learn](https://learn.microsoft.com/en-us/users/jssuthahar/)
+- [C# Corner](https://www.c-sharpcorner.com/members/suthahar-j)
+- [X](https://x.com/jssuthahar)
+
+## Contact
+- LinkedIn or https://blog.msdevbuild.com/contact/
